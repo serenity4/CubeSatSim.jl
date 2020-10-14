@@ -1,5 +1,10 @@
 module CubeSatSim
 
-greet() = print("Hello World!")
+using StaticArrats, DifferentialEquations
+
+include("config.jl")
+include("simulation.jl")
+
+export setup
 
 end # module
